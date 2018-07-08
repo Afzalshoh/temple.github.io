@@ -1,0 +1,166 @@
+body {
+  box-sizing: border-box;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+.top-menu {
+  display: block;
+  position: relative;
+  height: 6rem;
+  width: 100%;
+  background-color: #000;
+}
+.top-menu-img {
+  z-index: 10;
+}
+.top-menu-img img {
+  height: 13rem;
+}
+.top-menu-nav {
+  margin: 0;
+  padding: 0;
+}
+.top-menu-nav ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  line-height: 4rem;
+}
+.top-menu-nav ul li {
+  display: inline-block;
+  color: #fff;
+  font-size: 1.9rem;
+  margin: 1rem 0;
+  margin-left: 0;
+  text-transform: uppercase;
+}
+.top-menu-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.top-menu-nav ul li span {
+  border: 1px solid #fff;
+  margin: 0 2rem;
+}
+.header-title h1 {
+  font-family: "Tahoma, sans-serif";
+  color: #000;
+  font-size: 2.3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 1rem 0;
+  margin-left: 28rem;
+}
+.header-img {
+  background: #ffffff url(../img/img.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 320px;
+  top: 11rem;
+}
+.user-info-img {
+  position: absolute;
+  top: 32rem;
+}
+.user-info-img img {
+  border: 8px solid #fff;
+  box-shadow: 0px 0px 3px 1px #b3b3b3;
+}
+.user-info-name {
+  left: 20rem;
+}
+.user-info-name h2 {
+  padding: 0;
+  margin: 1rem 0 0 0;
+  font-size: 2.3rem;
+}
+.user-info-name p {
+  font-size: 1.7rem;
+  margin: 0;
+}
+.content {
+  margin-top: 3rem;
+}
+.content h3 {
+  font-size: 2.3rem;
+}
+.content p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  margin-left: 0.4rem;
+  color: #585555;
+}
+.footer {
+  text-align: center;
+  font-size: 1.3rem;
+  border-top: 1px solid #888;
+  margin-top: 1rem;
+}
+@media (max-width: 1024px) {
+  .user-info-name {
+    left: 20rem;
+    width: 60%;
+  }
+}
+@media (max-width: 768px) {
+  .header-title h1 {
+    font-size: 2rem;
+  }
+  .top-menu-img {
+    float: left;
+  }
+}
+@media (max-width: 425px) {
+  .top-menu-img {
+    float: left;
+  }
+  .user-info {
+    height: 15rem;
+  }
+  .user-info-img {
+    position: absolute;
+    top: 52rem;
+  }
+  .user-info-name {
+    left: 0rem;
+    width: 100%;
+    top: 10rem;
+  }
+  .content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .content h3 {
+    font-size: 3.3rem;
+  }
+  .content p {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+  }
+  .header-title h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .top-menu {
+    height: 21rem;
+  }
+  .top-menu-nav {
+    margin: 0;
+    padding: 0;
+    float: right;
+    padding-right: 1rem;
+  }
+  .top-menu-nav ul {
+    list-style: none;
+    text-align: right;
+  }
+  .top-menu-nav ul li {
+    display: block;
+    color: #fff;
+    font-size: 1.9rem;
+    margin: 1rem 0;
+    margin-left: 0;
+    text-transform: uppercase;
+  }
+}
